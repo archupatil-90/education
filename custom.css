@@ -452,13 +452,18 @@ h3 {
 .course-details-nav-tab {
     background: 0 0;
     margin-bottom: 44px;
+
+}
+.brd{
     border: 1px solid #cbd6e2;
+   
+
 }
 .course-details-nav-tab ul li {
     margin-bottom: 0!important;
     width: 25%;
 }
-.course-details-nav-tab ul li a {
+.course-details-nav-tab ul li button {
     border: 0!important;
     border-right: 1px solid #cbd6e2!important;
     padding: 10px 16px;
@@ -467,44 +472,44 @@ h3 {
     border-radius: 0!important;
     color: #002147!important;
 }
-.course-details-nav-tab ul li a.active {
 
-    background-color: #f6c405;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #f6c405!important;
+
 }
-.course-details-nav-tab ul li a:hover {
+.nav-pills .nav-link {
+    width: 100%;
+}
+
+.course-details-nav-tab ul li :hover {
 
     background-color: #f6c405;}
 
-.tab-content>.active {
-    display: block;
-}
-.tab-content>.tab-pane {
-    display: none;
-}
-.fade.show {
-    opacity: 1;
-}
-.fade {
-    opacity: 0;
-    transition: opacity .15s linear;
-}
+
 p {
     color: #002147!important;
 font-size: 20px;
     hyphens: auto;
     margin-bottom: 10px;
 }
+.single-list-wrap {
+    margin: 0;
+    padding: 0;
+}
+.single-list-inner{
+    margin-bottom: 20px;
 
-
-.single-list-wrap li {
+}
+.course-details-nav-tab .single-list-wrap li {
     list-style: none;
     color: #959799;
     font-size: 15px;
     font-weight: 700;
+    width: 100%;
+
 }
-.single-list-inner {
-    margin-bottom: 20px;
-}
+
 .style-check-box i {
     height: 28px;
     width: 28px;
@@ -515,8 +520,102 @@ font-size: 20px;
     font-size: 15px;
     display: inline-block;
     margin-right: 9px;
+   
     color: #250051;
 }
+
+
+
+.course-course-detaila-inner .title {
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #03063e;
+    font-weight: 700;
+}
+
+.single-faq-inner.style-no-border {
+    border: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.single-faq-inner {
+    border: 1px solid #dfdfdf;
+    padding: 22px 28px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.single-faq-inner .card-header button {
+    padding: 0;
+    font-weight: 600;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer!important;
+    position: relative;
+    color: var(--heading-color);
+}
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+}
+
+.collapse.show {
+    display: block;
+}
+.collapse {
+    display: none;
+}
+
+.single-faq-inner .card-header button i {
+    position: absolute;
+    right: 0;
+    padding-top: 3px;
+    color: #f6c405;
+}
+
+.ratings-list-inner {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 40px 30px;
+}
+.ratings-list-inner ul li .counter-label {
+    margin-right: 10px;
+}
+.ratings-list-inner ul li .progress-bar-inner {
+    display: inline-block;
+    width: 65%;
+}
+.ratings-list-inner ul li .progress-bar-inner .progress {
+    height: 6px;
+}
+.counter-label i{
+    color: #ffb700;
+}
+.ratings-list-inner ul li .progress-bar-inner .progress .progress-bar {
+    background-color: #ffb700;
+}
+
 .td-sidebar .widget .widget-title {
     margin-bottom: 23px;
     font-size: 22px;
@@ -594,3 +693,11 @@ font-size: 20px;
 color: #250051!important;
 
         }
+        .fade.show {
+            opacity: 1;
+        }
+        .fade {
+            opacity: 0;
+            transition: opacity .15s linear;
+        }
+      
